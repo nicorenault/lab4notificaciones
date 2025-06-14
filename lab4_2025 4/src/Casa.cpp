@@ -1,5 +1,5 @@
 #include "Casa.h"
-#include "DTcasa.h"
+#include "DTCasa.h"
 #include <iostream>
 Casa::Casa(std::string direccion, int numeroPuerta, int superficie, int anoConstruccion, bool esPH, TipoTecho techo): Inmueble(direccion, numeroPuerta, superficie, anoConstruccion){
     this->esPH = esPH;
